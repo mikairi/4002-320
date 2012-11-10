@@ -1,0 +1,58 @@
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	border: 3px ridge #888;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	border: 2px ridge #888;
+}
+
+thead tr {
+	background-color: #111;
+	color: #fff;
+}
+
+tbody tr th {
+	background-color: #888;
+	font-weight: bold;
+	text-align: left;
+}
+
+td {
+	padding: 4px;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+#page-title {
+	background-color: #ccc;
+	border: 3px ridge #111;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+#content-left {
+	float: left;
+	width: 48%;
+}
+
+#content-right {
+	float: right;
+	width: 48%;
+}
